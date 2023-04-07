@@ -22,14 +22,12 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 # Edit ~/.zshrc and set ZSH_THEME to powerlevel10k as below
-# ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 source ~/.zshrc -y
 
 # Quit terminal using CMD+Q and reopen
 # Configure powerlevel theme using
 p10k configure
-
-## Enjoy
 
 ## Further to install zsh pugins
 # Install autosuggestion
@@ -46,6 +44,7 @@ source ~/.zshrc
 # https://www.josean.com/posts/terminal-setup
 # https://www.youtube.com/watch?v=CF1tMjvHDRA
 
+## Enjoy
 
 
 
