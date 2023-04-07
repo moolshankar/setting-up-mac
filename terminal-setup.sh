@@ -20,3 +20,11 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 
 # Install ohMyZsh powerlevel10k theme from https://github.com/romkatv/powerlevel10k
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
+# Edit ~/.zshrc and set ZSH_THEME to powerlevel10k as below
+# ZSH_THEME="powerlevel10k/powerlevel10k"
+source ~/.zshrc -y
+
+# Quit terminal using CMD+Q and reopen
+
+
