@@ -31,4 +31,21 @@ p10k configure
 
 ## Enjoy
 
+## Further to install zsh pugins
+# Install autosuggestion
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# Edit ~/.zshrc to use new plugins as below
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
+
+# Save and source
+source ~/.zshrc
+
+# Refernces
+# https://www.josean.com/posts/terminal-setup
+# https://www.youtube.com/watch?v=CF1tMjvHDRA
+
+
+
 
